@@ -90,8 +90,6 @@ Replace `YourAppPassword` with the generated app password for Gmail.
 
 Replace `from@email.com` with the your backend email address.
 
----
-
 
 ## Security Disclaimer
 
