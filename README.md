@@ -47,9 +47,6 @@ This command will start the application using Docker Compose.
 
 - **Encryption/Decryption Password**: The encryption/decryption password is crucial for accessing stored data. It is not stored on the server, so if forgotten, there is no way to recover the data.
 
-Sure, here's the updated information integrated into your README.md file:
-
----
 
 ## Configuration Changes
 
