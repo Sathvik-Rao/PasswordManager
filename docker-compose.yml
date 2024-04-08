@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+  mysql_database:
+    image: mysql:8.0.27
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: passwordmanager123
+      MYSQL_DATABASE: password_manager # Database name (do not change)
+      MYSQL_USER: nouser # no need
+      MYSQL_PASSWORD: nouserpassword # no need
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./starter.sql:/docker-entrypoint-initdb.d/starter.sql # SQL script for initialization (do not change)
+
+  php_apache:
+    depends_on:
+      - mysql_database
+    build: .
+    environment:
+      MYSQL_HOST: mysql_database
+      MYSQL_PORT: 3306
+      MYSQL_USER: root # don't change
+      MYSQL_PASSWORD: passwordmanager123
+      EMAIL_FROM: from@email.com
+      REPLY_TO: replyto@email.com
+    ports:
+      - "80:80"
+    volumes:
+      - encrypted-user-data:/srv/password_manager_data
+
+volumes:
+  mysql-data:
+  encrypted-user-data:
