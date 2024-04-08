@@ -5,6 +5,10 @@
 This is a secure password manager website where users can store multiple records of passwords along with other relevant information such as icons, titles, usernames, URLs, notes and attachments. The website ensures security through various measures including user authentication via email, encryption/decryption of data using AES-256, and a second password for additional security.
 
 
+https://github.com/Sathvik-Rao/PasswordManager/assets/36164509/caebc373-a5fa-48be-9cd2-9ff1cdda3b15
+
+
+
 ### Running the Application
 
 To run the application, use the following command:
