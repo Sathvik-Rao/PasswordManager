@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteRule database.php - [F,NC]
+RewriteRule email.php - [F,NC]
+RewriteRule files.php - [F,NC]
+RewriteRule hash.php - [F,NC]
+RewriteRule jwt_key.php - [F,NC]
+RewriteRule otp.php - [F,NC]
+RewriteRule time.php - [F,NC]
+RewriteRule URL.txt - [F,NC]
+RewriteRule email_templates - [F,NC]
+RewriteRule JWT - [F,NC]
