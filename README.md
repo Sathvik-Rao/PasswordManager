@@ -1,5 +1,22 @@
 # PasswordManager
 
+Welcome to the Project PasswordManager! Check out the live demo below:
+
+<p align="center">
+  <a href="https://passman.sathvik.dev" target="_blank">
+    <img src="https://via.placeholder.com/300x80/4CAF50/FFFFFF?text=Go+to+Live+Demo&size=30&bold=true" alt="Live Demo">
+  </a>
+</p>
+
+## Access the Demo
+
+To access the demo, use the following credentials:
+
+- **Username:** `tajiseb284@furnato.com`
+- **Password:** `Tajiseb284@furnato.com`
+- **Encryption Password:** `root`
+
+
 ## Description
 
 This is a secure password manager website where users can store multiple records of passwords along with other relevant information such as icons, titles, usernames, URLs, notes and attachments. The website ensures security through various measures including user authentication via email, encryption/decryption of data using AES-256, and a second password for additional security.
