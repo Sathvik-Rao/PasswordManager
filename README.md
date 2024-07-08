@@ -14,7 +14,7 @@ To access the demo, use the following credentials:
 
 - **Username:** `tajiseb284@furnato.com`
 - **Password:** `Tajiseb284@furnato.com`
-- **Encryption Password:** `root`
+- **Decryption Password:** `root`
 
 
 ## Description
