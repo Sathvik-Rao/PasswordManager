@@ -4,7 +4,7 @@ Welcome to the Project PasswordManager! Check out the live demo below:
 
 <p align="center">
   <a href="https://passman.sathvik.dev" target="_blank">
-    <img src="https://via.placeholder.com/300x80/4CAF50/FFFFFF?text=Go+to+Live+Demo&size=30&bold=true" alt="Live Demo">
+    <img src="https://dummyimage.com/300x80/4CAF50/FFFFFF?text=Go+to+Live+Demo&size=30&bold=true" alt="Live Demo">
   </a>
 </p>
 
